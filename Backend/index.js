@@ -33,7 +33,6 @@ ipcMain.on('executeCode', (e , data) => {
                 for(let j in array){
                     if ( array[i] === array[j] ){
                         currentFreq++; 
-                        console.log(currentFreq , array[i]);
                         if(currentFreq > freq){ 
                             freq = currentFreq;
                             fn = array[i]; // assegnazione della variable piu frequente
