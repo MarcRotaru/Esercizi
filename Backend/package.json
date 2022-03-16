@@ -1,0 +1,16 @@
+{
+  "name": "backend-test",
+  "version": "1.0.0",
+  "description": "Test per il Backend con Electron",
+  "main": "index.js",
+  "dependencies": {
+    "electron": "^17.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start" : "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marc Rotaru",
+  "license": "ISC"
+}

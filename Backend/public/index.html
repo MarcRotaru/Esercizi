@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backend Test</title>
+    <script src="../renderer.js"></script>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="main">
+        <div class="child">
+            <h3> Test Frequenza </h3>
+            <label for="input"> input example => 1,2,3,4,5,2,'a'</label>
+            </br>
+            </br>
+            <input class="inputvalue1" type="text">
+            <button onclick = executeCode(1)> Controlla Frequenza </button>
+            <p class="result1 res"></p>
+        </div>
+        <div class="child">
+            <div class="text-div">
+                <h3> Library Sort </h3>
+                <p class="text-box">
+                    { autore: 'Romeo J. Graifenberg', titolo: 'Il mio ritorno in cucina', libraryID: 1234},</br>
+                    { autore: 'Tom H. Marchiori', titolo: 'La mia vita senza acca.', libraryID: 5678},</br>
+                    { autore: 'Luca Dalessandro', titolo: 'Dove sono le mie ciabatte?', libraryID: 9101}
+                </p>
+            </div>
+                <button onclick = executeCode(2)> Ordina per Titolo </button>
+            <div class="text-div">
+                <code class="result2 text-box"></code>
+            </div> 
+        </div>   
+        <div class="child">
+                <h3> Test Palindroma</h3>
+                <input class="inputvalue3" type="text">
+                <button onclick = executeCode(3)> Controlla Palidroma </button>
+                <p class="result3 res"></p>
+        </div>
+    </div>
+</body>
+</html>
